@@ -1,3 +1,7 @@
+huihuangjiuai/tp5.0-swoole
+
+以下为原始文档
+
 # ThinkPHP 5.0 Swoole 扩展
 
 参考官方think-swoole2.0和easyswoole开发基于TP5.0的swoole扩展包
