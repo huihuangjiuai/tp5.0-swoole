@@ -1,4 +1,4 @@
-huihuangjiuai/tp5.0-swoole
+composer require huihuangjiuai/tp5.0-swoole
 
 以下为原始文档
 
