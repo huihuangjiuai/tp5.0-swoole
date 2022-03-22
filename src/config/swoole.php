@@ -19,4 +19,8 @@ return [
     'max_request'           => 10000,
     'timer'                 => true,//开启系统定时器
     'interval'              => 500,//开启系统定时器
+    'server_setting' => [       //从 v4.5.5 版本起，底层会检测设置的配置项是否正确，如果设置了不是 Swoole 提供的配置项，则会产生一个 Warning。所以关于swoole的配置全都放在这里
+        'worker_num' => 8,    //worker process num
+        'max_request' => 10000,
+    ]
 ];

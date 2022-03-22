@@ -136,7 +136,7 @@ class Swoole extends Command
         if (isset($this->config['pid_file'])) {
 
         }
-        $swoole->option($this->config);
+        $swoole->option($this->config['server_setting']);
 
         $this->output->writeln("Swoole http server started: <http://{$host}:{$port}>");
         $this->output->writeln('You can exit with <info>`CTRL-C`</info>');
