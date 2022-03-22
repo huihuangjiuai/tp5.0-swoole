@@ -29,7 +29,7 @@ class Swoole extends Command
             ->addOption('host', 'H', Option::VALUE_OPTIONAL, 'the host of swoole server.', null)
             ->addOption('port', 'p', Option::VALUE_OPTIONAL, 'the port of swoole server.', null)
             ->addOption('daemon', 'd', Option::VALUE_NONE, 'Run the swoole server in daemon mode.')
-            ->setDescription('Swoole HTTP Server for ThinkPHP');
+            ->setDescription('Swoole HTTP Server for ThinkPHP5.0');
     }
 
     protected function execute(Input $input, Output $output)
