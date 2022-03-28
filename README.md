@@ -76,10 +76,10 @@ return [
     'task_worker_num'       => 20,
     //'document_root'         => getcwd() . 'public',
     //'enable_static_handler' => true,
-    'daemonize'                => 1,//守护
     'server_setting' => [       //从 v4.5.5 版本起，底层会检测设置的配置项是否正确，如果设置了不是 Swoole 提供的配置项，则会产生一个 Warning。所以关于swoole的配置全都放在这里
         'worker_num' => 8,    //worker process num
         'max_request' => 10000,
+        'daemonize'                => 1,//守护
     ]
 ];
 ```

@@ -1,6 +1,6 @@
 {
   "name": "huihuangjiuai/tp5.0-swoole",
-  "description": "Swoole extend for thinkphp5",
+  "description": "Swoole extend for thinkphp5.0",
   "license": "Apache-2.0",
   "authors": [
     {
