@@ -1,5 +1,6 @@
-composer require huihuangjiuai/tp5.0-swoole
+composer require huihuangjiuai/thinkphp5.0-swoole
 
+建议将thinkphp5.0升级到5.1，然后使用官方文档。升级不是很麻烦。
 以下为原始文档
 
 # ThinkPHP 5.0 Swoole 扩展
